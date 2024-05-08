@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PetsApplicationChallenge/1.0.0": {
+        "runtime": {
+          "PetsApplicationChallenge.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PetsApplicationChallenge/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
