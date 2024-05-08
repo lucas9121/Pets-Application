@@ -1,0 +1,15 @@
+/Users/lucascarlos/code/CsharpProjects/PetsApplicationChallenge/bin/Debug/net8.0/PetsApplicationChallenge
+/Users/lucascarlos/code/CsharpProjects/PetsApplicationChallenge/bin/Debug/net8.0/PetsApplicationChallenge.deps.json
+/Users/lucascarlos/code/CsharpProjects/PetsApplicationChallenge/bin/Debug/net8.0/PetsApplicationChallenge.runtimeconfig.json
+/Users/lucascarlos/code/CsharpProjects/PetsApplicationChallenge/bin/Debug/net8.0/PetsApplicationChallenge.dll
+/Users/lucascarlos/code/CsharpProjects/PetsApplicationChallenge/bin/Debug/net8.0/PetsApplicationChallenge.pdb
+/Users/lucascarlos/code/CsharpProjects/PetsApplicationChallenge/obj/Debug/net8.0/PetsApplicationChallenge.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucascarlos/code/CsharpProjects/PetsApplicationChallenge/obj/Debug/net8.0/PetsApplicationChallenge.AssemblyInfoInputs.cache
+/Users/lucascarlos/code/CsharpProjects/PetsApplicationChallenge/obj/Debug/net8.0/PetsApplicationChallenge.AssemblyInfo.cs
+/Users/lucascarlos/code/CsharpProjects/PetsApplicationChallenge/obj/Debug/net8.0/PetsApplicationChallenge.csproj.CoreCompileInputs.cache
+/Users/lucascarlos/code/CsharpProjects/PetsApplicationChallenge/obj/Debug/net8.0/PetsApplicationChallenge.sourcelink.json
+/Users/lucascarlos/code/CsharpProjects/PetsApplicationChallenge/obj/Debug/net8.0/PetsApplicationChallenge.dll
+/Users/lucascarlos/code/CsharpProjects/PetsApplicationChallenge/obj/Debug/net8.0/refint/PetsApplicationChallenge.dll
+/Users/lucascarlos/code/CsharpProjects/PetsApplicationChallenge/obj/Debug/net8.0/PetsApplicationChallenge.pdb
+/Users/lucascarlos/code/CsharpProjects/PetsApplicationChallenge/obj/Debug/net8.0/PetsApplicationChallenge.genruntimeconfig.cache
+/Users/lucascarlos/code/CsharpProjects/PetsApplicationChallenge/obj/Debug/net8.0/ref/PetsApplicationChallenge.dll
