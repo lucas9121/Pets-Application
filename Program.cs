@@ -139,20 +139,84 @@ if (readResult != null)
 }
 
 Console.WriteLine($"You selected menu option {menuSelection}.");
-if(menuSelection == "1"){
-    for(int i = 0; i < ourAnimals.Length; i++){
-        Console.WriteLine($"Animal {i}:");
-        Console.WriteLine(ourAnimals[i, 0]);
-        Console.WriteLine(ourAnimals[i, 2]);
-        Console.WriteLine(ourAnimals[i, 3]);
-        Console.WriteLine(ourAnimals[i, 4]);
-        Console.WriteLine(ourAnimals[i, 5]);
-    }
-} else if(menuSelection == "2"){
-    Console.WriteLine("New friend added");
-} else {
-    Console.WriteLine("Feature comming soon.");
+switch(menuSelection)
+{
+    case "1":
+        // List all of our current pet information
+        Console.WriteLine("this app feature is coming soon - please check back to see progress.");
+        Console.WriteLine("Press the Enter key to continue.");
+        readResult = Console.ReadLine();
+        break;
+
+    case "2":
+        // List all of our current pet information
+        Console.WriteLine("this app feature is coming soon - please check back to see progress.");
+        Console.WriteLine("Press the Enter key to continue.");
+        readResult = Console.ReadLine();
+        break;
+
+    case "3":
+        // List all of our current pet information
+        Console.WriteLine("Challenge Project - please check back soon to see progress.");
+        Console.WriteLine("Press the Enter key to continue.");
+        readResult = Console.ReadLine();
+        break;
+
+    case "4":
+        // List all of our current pet information
+        Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
+        Console.WriteLine("Press the Enter key to continue.");
+        readResult = Console.ReadLine();
+        break;
+
+    case "5":
+        // List all of our current pet information
+        Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
+        Console.WriteLine("Press the Enter key to continue.");
+        readResult = Console.ReadLine();
+        break;
+
+    case "6":
+        // List all of our current pet information
+        Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
+        Console.WriteLine("Press the Enter key to continue.");
+        readResult = Console.ReadLine();
+        break;
+
+    case "7":
+        // List all of our current pet information
+        Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
+        Console.WriteLine("Press the Enter key to continue.");
+        readResult = Console.ReadLine();
+        break;
+
+    case "8":
+        // List all of our current pet information
+        Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
+        Console.WriteLine("Press the Enter key to continue.");
+        readResult = Console.ReadLine();
+        break;
+    default:
+        Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
+        Console.WriteLine("Press the Enter key to continue.");
+        readResult = Console.ReadLine();
+        break;
+
 }
+// if(menuSelection == "1"){
+//     for(int i = 0; i < ourAnimals.Length; i++){
+//         Console.WriteLine($"Animal {i}:");
+//         Console.WriteLine(ourAnimals[i, 0]);
+//         Console.WriteLine(ourAnimals[i, 2]);
+//         Console.WriteLine(ourAnimals[i, 3]);
+//         Console.WriteLine(ourAnimals[i, 4]);
+//         Console.WriteLine(ourAnimals[i, 5]);
+//     }
+// } else if(menuSelection == "2"){
+//     Console.WriteLine("New friend added");
+// } else {
+//     Console.WriteLine("Feature comming soon.");
+// }
 Console.WriteLine("Press the Enter key to continue");
 
 // pause code execution
