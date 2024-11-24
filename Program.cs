@@ -351,20 +351,6 @@ switch(menuSelection)
         break;
 
 }
-// if(menuSelection == "1"){
-//     for(int i = 0; i < ourAnimals.Length; i++){
-//         Console.WriteLine($"Animal {i}:");
-//         Console.WriteLine(ourAnimals[i, 0]);
-//         Console.WriteLine(ourAnimals[i, 2]);
-//         Console.WriteLine(ourAnimals[i, 3]);
-//         Console.WriteLine(ourAnimals[i, 4]);
-//         Console.WriteLine(ourAnimals[i, 5]);
-//     }
-// } else if(menuSelection == "2"){
-//     Console.WriteLine("New friend added");
-// } else {
-//     Console.WriteLine("Feature comming soon.");
-// }
 Console.WriteLine("Press the Enter key to continue");
 
 // pause code execution
