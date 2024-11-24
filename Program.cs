@@ -145,7 +145,7 @@ switch(menuSelection)
         // List all of our current pet information
         for (int i = 0; i < maxPets; i++)
         {
-            if (ourAnimals[i, 0] != "ID #: ")
+            if (ourAnimals[i, 0] != "ID #: ") // check if pet characteristic was assigned.
             {
                 Console.WriteLine();
                 for (int j = 0; j < 6; j++)
@@ -159,8 +159,21 @@ switch(menuSelection)
         break;
 
     case "2":
-        // List all of our current pet information
-        Console.WriteLine("this app feature is coming soon - please check back to see progress.");
+        // Add a new animal friend to the ourAnimals array
+        string anotherPet = "y";
+        int petCount = 0; // this represents the number of animals with assigned pet characteristics.
+        // This code will loop through the ourAnimals array checking for assigned data. When it finds an animal with data assigned, it increments petCounter.
+        for (int i = 0; i < maxPets; i++)
+        {
+            if(ourAnimals[i, 0] != "ID #: ") // check if pet characteristic was assigned.
+            { 
+                petCount += 1;
+            }
+        }
+        if (petCount < maxPets)
+        {
+            Console.WriteLine($"We currently have {petCount} pets that need homes. We can manage {(maxPets - petCount)} more.");
+        }
         Console.WriteLine("Press the Enter key to continue.");
         readResult = Console.ReadLine();
         break;
@@ -231,4 +244,10 @@ Console.WriteLine("Press the Enter key to continue");
 
 // pause code execution
 readResult = Console.ReadLine();
+
+
+///////////////////////////////// Terminal Command /////////////////////////////////
+
+// dotnet build
+// dotnet run
 
